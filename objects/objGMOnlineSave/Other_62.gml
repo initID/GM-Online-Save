@@ -12,4 +12,6 @@ if( ds_map_find_value(async_load, "id") == rid){
 		func_onsuccess(result)
 	else if(is_method(func_onfailed))
 		func_onfailed(result)
+
+	instance_destroy(id);
 }

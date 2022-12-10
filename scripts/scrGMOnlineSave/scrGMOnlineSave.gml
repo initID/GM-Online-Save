@@ -1,5 +1,6 @@
 #macro GMOS_DEFAULT_URL "https://load.pythonanywhere.com"
 #macro GMOS_DEFAULT_FUNC function(result){ show_message(result) }
+#macro GMOS_DEFAULT_TIMEOUT 1200
 
 global.__gmos_gameid = "";
 global.__gmos_userid = "";

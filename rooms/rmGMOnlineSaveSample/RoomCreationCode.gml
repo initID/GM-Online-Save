@@ -12,8 +12,7 @@ gmos_write("player.json", playerdata)
 ///
 
 
-									   return; 
-// Sample loading that save (comment the ^return above)
+// Sample reading that data back
 gmos_read("player.json", 
 	function(result){
 		show_message("load success!");
